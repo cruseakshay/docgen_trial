@@ -66,3 +66,7 @@ def customFunc(a, b):
         int or float: The result of the custom calculation, which is obtained by multiplying a by 3, adding the square root of b, and then adding 8.
     """
     return (a * 3) + (b**0.5) + 8
+
+
+def func1(p_list):
+    return sum([ele for ele in p_list if ele % 2 == 0])
